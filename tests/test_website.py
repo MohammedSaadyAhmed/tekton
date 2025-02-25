@@ -8,7 +8,7 @@ options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 
 # Change this URL if necessary
-URL = "http://http://pipelines-vote-ui-test-cop-pipeline.apps.cluster-bxv9v.dynamic.redhatworkshops.io:8080"
+URL = "http://pipelines-vote-ui-test-cop-pipeline.apps.cluster-bxv9v.dynamic.redhatworkshops.io:8080"
 
 # Start WebDriver
 driver = webdriver.Chrome(options=options)
