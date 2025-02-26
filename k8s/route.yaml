@@ -6,7 +6,7 @@ metadata:
   name: pipelines-vote-ui-test
 spec:
   port:
-    targetPort: 443-tcp
+    targetPort: 8080-tcp
   to:
     kind: Service
     name: pipelines-vote-ui
