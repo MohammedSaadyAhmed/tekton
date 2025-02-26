@@ -8,8 +8,8 @@ spec:
   type: NodePort
   ports:
     - name: 8080-tcp
-      port: 443
-      targetPort: 443
+      port: 8080
+      targetPort: 8080
       protocol: TCP
   selector:
     app: pipelines-vote-ui
